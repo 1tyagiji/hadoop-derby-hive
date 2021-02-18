@@ -1,17 +1,27 @@
 ----Commands Used-----
+
 hdfs namenode -format //format hdfs....to be done once only
+
 start-all   //start hadoop
+
 mapred historyserver //to start history server for mapreduce jobs
+
 startnetworkserver -h 0.0.0.0   //to start networkserver
+
 hive --service schematool -dbType derby -initSchema  //to be done only once to initialise metastore
+
 hive --service hiveserver2 start
+
 hive
 
 
 stopnetworkserver
+
 stop-all
 
 ----------
+
+
 Note - You don't have to change the directory to use these commands as we have already declared paths in system variables....And always start hive from same directory
 
 First delete your previous hadoop and hive
