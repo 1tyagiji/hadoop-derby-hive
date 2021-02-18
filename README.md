@@ -70,7 +70,7 @@ Now we need to set the environment variables
 
 Copy this and paste it to system Path variable
 
-%HADOOP_HOME%\bin;%HADOOP_HOME%\sbin;%JAVA_HOME%\bin;%HIVE_BIN%;%DERBY_HOME%\bin;%HIVE_BIN%\bin;
+%HADOOP_HOME%\bin;%HADOOP_HOME%\sbin;%JAVA_HOME%\bin;%HIVE_BIN%;%DERBY_HOME%\bin;%HIVE_HOME%;
 
 
 Now we are going to copy all derby\lib\ files to hive lib
